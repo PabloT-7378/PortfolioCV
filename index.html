@@ -3,30 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio personal de [Tu Nombre]. Aquí encontrarás información sobre mí y mis proyectos.">
     <title>Mi Portafolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Bienvenido a mi Portafolio</h1>
-    </header>
+        <button class="login-button">Iniciar sesión</button>
+        <h1>Pablo Antonio Tapia</h1>
+        <div class="menu-container">
+            <button class="hamburger" onclick="toggleMenu()">☰</button>
+            <nav id="menu" class="hidden">
+                <ul>
+                    <li><a href="#sobre-mi">Sobre mí</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#testimonios">Testimonios</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>    
     <main>
-        <section>
+        <section id="sobre-mi">
             <h2>Sobre mí</h2>
-            <p>Introduce aquí una breve descripción sobre ti.</p>
+            <p>"Soy un profesional con experiencia en logística y una profunda pasión por la tecnología. Actualmente estoy cursando estudios en desarrollo web, donde estoy adquiriendo habilidades en programación y diseño de sitios web. Mi misión es integrar mi experiencia en logística con mis nuevas competencias técnicas para desarrollar soluciones digitales que optimicen procesos y mejoren la eficiencia empresarial. Aspiro a trabajar en un entorno dinámico que me permita aplicar mis conocimientos y seguir aprendiendo, contribuyendo de manera significativa al éxito de un equipo."</p>
         </section>
-        <section>
+        <section id="proyectos">
             <h2>Proyectos</h2>
             <ul>
-                <li><a href="url-a-tu-proyecto-1">Proyecto 1</a></li>
-                <li><a href="url-a-tu-proyecto-2">Proyecto 2</a></li>
-                <!-- Añade más proyectos según sea necesario -->
+                <li><a href="#proyecto1">Proyecto 1</a></li>
+                <li><a href="#proyecto2">Proyecto 2</a></li>
             </ul>
         </section>
-        <section>
+        <section id="contacto">
             <h2>Contacto</h2>
-            <p>Email: tu-email@example.com</p>
+            <p>Email: <a href="mailto:tu-email@example.com">tu-email@example.com</a></p>
         </section>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>

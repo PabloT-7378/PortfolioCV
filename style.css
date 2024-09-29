@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4; /* Color de fondo */
 }
 
 header {
@@ -9,8 +10,61 @@ header {
     color: white;
     text-align: center;
     padding: 1em 0;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-main {
-    padding: 20px;
+.menu-container {
+    display: inline-block;
+}
+
+.hamburger {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+nav {
+    position: absolute;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    right: 0;
+    top: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+}
+
+nav li {
+    margin: 5px 0;
+}
+
+nav a {
+    color: #4CAF50; /* Color de enlaces */
+    text-decoration: none; /* Sin subrayado */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Subrayar al pasar el mouse */
+}
+
+.hidden {
+    display: none; /* Ocultar menú */
+}
+
+.login-button {
+    background-color: #ffffff;
+    color: #4CAF50;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 20px;
 }
