@@ -6,10 +6,10 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #2215da;
     color: white;
     text-align: center;
-    padding: 1em 0;
+    padding: 0.1em 0;
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -39,7 +39,7 @@ nav {
 
 nav ul {
     list-style-type: none;
-    padding: 10px;
+    padding: 5px;
     margin: 0;
 }
 
@@ -48,7 +48,7 @@ nav li {
 }
 
 nav a {
-    color: #4CAF50; /* Color de enlaces */
+    color: #4e4c50; /* Color de enlaces */
     text-decoration: none; /* Sin subrayado */
 }
 
@@ -62,11 +62,45 @@ nav a:hover {
 
 .login-button {
     background-color: #ffffff;
-    color: #4CAF50;
+    color: #4e4c50;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
     margin-left: 20px;
+}
+
+.banner {
+    background-image: url(https://th.bing.com/th/id/OIP.gSvP3sXUyXL_rR8cgHLCkAHaDt?rs=1&pid=ImgDetMain); /* Ruta a tu imagen de fondo */
+    background-size: cover; /* Para que la imagen cubra todo el banner */
+    background-position: center; /* Centrar la imagen */
+    color: white; /* Color del texto, cambia según la imagen */
+    padding: 50px; /* Espaciado interno */
+    text-align: center; /* Centrar texto */
+    margin-bottom: 20px; /* Espacio abajo del banner */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+.banner h2 {
+    margin: 0; /* Quitar márgenes por defecto */
+    font-size: 24px; /* Tamaño de fuente */
+}
+
+.banner p {
+    margin-top: 8px; /* Espaciado entre título y texto */
+    font-size: 16px; /* Tamaño de fuente */
+}
+
+#sobre-mi {
+    text-align: center; /* Centra el título */
+}
+
+#sobre-mi h2 {
+    margin-bottom: 20px; /* Espacio debajo del título */
+}
+
+#sobre-mi p {
+    margin: 0 20px; /* Espaciado en los márgenes izquierdo y derecho */
+    text-align: justify; /* Justifica el texto (opcional) */
 }
 
 .seccion-proyectos {
@@ -80,7 +114,7 @@ nav a:hover {
 
 .titulo-proyectos {
     text-align: center;
-    color: #4CAF50; /* Color del título */
+    color: #4e4c50; /* Color del título */
     margin-bottom: 20px; /* Espaciado inferior */
 }
 
@@ -121,7 +155,7 @@ nav a:hover {
 
 .enlace-proyecto {
     display: inline-block; /* Mostrar como bloque */
-    background-color: #4CAF50; /* Color de fondo del enlace */
+    background-color: #4e4c50; /* Color de fondo del enlace */
     color: white; /* Color del texto */
     padding: 8px 15px; /* Espaciado interno */
     border-radius: 5px; /* Esquinas redondeadas */
@@ -130,7 +164,7 @@ nav a:hover {
 }
 
 .enlace-proyecto:hover {
-    background-color: #45a049; /* Color de fondo al pasar el mouse */
+    background-color: #4e4c50; /* Color de fondo al pasar el mouse */
 }
 
 .seccion-experiencia {
@@ -144,7 +178,7 @@ nav a:hover {
 
 .titulo-experiencia {
     text-align: center;
-    color: #4CAF50; /* Color del título */
+    color: #4e4c50; /* Color del título */
     margin-bottom: 20px; /* Espaciado inferior */
 }
 
